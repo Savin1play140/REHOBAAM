@@ -1,0 +1,7 @@
+requests
+urwid
+tk
+translators
+Faker
+colorlog
+ollama
