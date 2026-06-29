@@ -165,7 +165,7 @@ def main():
 
 	#api.integrate(GUIManager(api, 'original', mode='console', bot=bot))
 	#api.integrate("Test", Test)
-	api.integrate("Telegram", Telegram, ollama_client=ollama, model=model, token='8491872176:AAFDEg9rfNZMppJcw4j7ONMQtBywhZRyJYk')
+	api.integrate("Telegram", Telegram, ollama_client=ollama, model=model, token='token')
 
 	api.start()
 	if api.is_started():
